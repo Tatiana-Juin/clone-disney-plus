@@ -2,19 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Card from './components/Card'
+import Homes from './pages/Homes'
+import{Routes,Route} from 'react-router-dom'
+import Navbar from './components/navbar/Navbar'
+
 
 function App() {
  
+  
 
   return (
     <>
-      <div style={{display:"flex" }}>
-          <Card title="disney" />
-          <Card title="Pixar"/>
-          <Card title="Marvel"/>
-          <Card title="Star Wars"/>
-      </div>
+    <Navbar />
+    <Routes>
+        <Route path='/' element={<Homes />} />
+    </Routes>
       
     </>
   )
