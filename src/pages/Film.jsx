@@ -2,6 +2,8 @@
 
 export default function Film() {
   return (
-    <div>Film</div>
+    <div>
+      <p style={{color:"white"}}>Film</p>
+    </div>
   )
 }
