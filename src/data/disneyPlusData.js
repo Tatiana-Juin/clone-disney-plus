@@ -1,6 +1,7 @@
 const disneyPlusData = {
   marvel: [
     {
+      id:1,
       type: "film",
       nom: "Iron Man",
       annee: 2008,
@@ -9,6 +10,7 @@ const disneyPlusData = {
       categorie: "héros"
     },
     {
+      id:2,
       type: "serie",
       nom: "WandaVision",
       annee: 2021,
@@ -36,6 +38,7 @@ const disneyPlusData = {
 
   disney: [
     {
+      id:3,
       type: "film",
       nom: "Le Roi Lion",
       annee: 1994,
@@ -44,6 +47,7 @@ const disneyPlusData = {
       categorie: "aventure"
     },
     {
+      id:4,
       type: "film",
       nom: "Vaiana",
       annee: 2016,
@@ -52,6 +56,7 @@ const disneyPlusData = {
       categorie: "famille"
     },
     {
+      id:5,
       type: "serie",
       nom: "Waverly place les nouveau sorciers",
       annee: 2024,
@@ -80,6 +85,7 @@ const disneyPlusData = {
 
   pixar: [
     {
+      id:6,
       type: "film",
       nom: "Toy Story",
       annee: 1995,
@@ -88,6 +94,7 @@ const disneyPlusData = {
       categorie: "comédie"
     },
     {
+      id:7,
       type: "serie",
       nom: "Toy Story: The Series",
       annee: 2020,
@@ -115,6 +122,7 @@ const disneyPlusData = {
 
   starWars: [
     {
+      id:8,
       type: "film",
       nom: "Star Wars: Un nouvel espoir",
       annee: 1977,
@@ -123,6 +131,7 @@ const disneyPlusData = {
       categorie: "science-fiction"
     },
     {
+      id:9,
       type: "serie",
       nom: "The Mandalorian",
       annee: 2019,
@@ -145,6 +154,7 @@ const disneyPlusData = {
 
   nationalGeographic: [
     {
+      id:10,
       type: "film",
       nom: "Free Solo",
       annee: 2018,
@@ -153,6 +163,7 @@ const disneyPlusData = {
       categorie: "documentaire"
     },
     {
+      id:11,
       type: "serie",
       nom: "One Strange Rock",
       annee: 2018,
@@ -175,6 +186,7 @@ const disneyPlusData = {
 
   star: [
     {
+      id:12,
       type: "film",
       nom: "Deadpool",
       annee: 2016,
@@ -183,10 +195,11 @@ const disneyPlusData = {
       categorie: "comédie"
     },
     {
+      id:13,
       type: "serie",
       nom: "",
       annee: 2005,
-      image: "images/greys_anatomy.jpg",
+      image: "",
       categorie: "drame",
       saisons: [
         {

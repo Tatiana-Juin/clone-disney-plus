@@ -14,6 +14,7 @@ function App() {
   return (
     <>
     <Navbar />
+
     <Routes>
         <Route path='/' element={<Homes />} />
         <Route path='/film' element={<Film />} />
