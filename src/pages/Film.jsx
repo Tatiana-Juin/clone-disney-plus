@@ -1,11 +1,11 @@
 import disneyPlusData from "../data/disneyPlusData"
 
 export default function Film() {
-  console.log(disneyPlusData)
+  
   return (
     <div>
       
-      
+      {/* POUR AFFICHER LES FILMS  */}
       {Object.entries(disneyPlusData).map(([categorie,contenus]) =>(
         <div key={categorie}>
             <ul>
