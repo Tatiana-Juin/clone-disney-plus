@@ -4,22 +4,17 @@ export default function Film() {
   console.log(disneyPlusData)
   return (
     <div>
-      {/* <p style={{color:"white"}}>Film</p> */}
       
       
-     
-      {Object.entries(disneyPlusData).map(([categories,contenus]) =>(
-        <div key={categories}>
-          <h2 style={{color:"white"}} >
-            {categories}
-          </h2>
-          <ul>
-            {contenus.map((item) =>(
-              <li style={{color:"white"}} key={item.id}> {item.nom}</li>
-            ))}
-          </ul>
+      {Object.entries(disneyPlusData).map(([categorie,contenus]) =>(
+        <div key={categorie}>
+            <ul>
+              {contenus.filter((filmContenu) => filmContenu.type==="film").map((filmContenu) =>(
+                <li style={{color:"white"}} key={filmContenu.id}>{filmContenu.nom}</li>
+              ))}
+            </ul>
         </div>
-      ) )}
+      ))}
       
       
 
