@@ -197,7 +197,7 @@ const disneyPlusData = {
     {
       id:13,
       type: "serie",
-      nom: "",
+      nom: "Grey anatomy",
       annee: 2005,
       image: "",
       categorie: "drame",
