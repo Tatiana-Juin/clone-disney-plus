@@ -1,19 +1,22 @@
 import CardHeader from "../components/CardHeader"
 import disneyPlusData from "../data/disneyPlusData"
-
+import { Link } from "react-router-dom"
 export default function Homes() {
   return (
-    // <div style={{display:"flex" }}>
-    //       <CardHeader title="disney" />
-    //       <CardHeader title="Pixar"/>
-    //       <CardHeader title="Marvel"/>
-    //       <CardHeader title="Star Wars"/>
-    //       <CardHeader title="National Geographic"/>
-    //       <CardHeader title="Stars"/>
-    //   </div>
+    <div>
+      {/* POUR CHAQUE LIENS VERS LES PAGES */}
+      <div style={{display:"flex"}}>
+        <Link to='/disney'> <CardHeader title="disney" /> </Link>
+        <Link to='/pixar'> <CardHeader title="Pixar"/> </Link>
+        <Link to="/marvel"> <CardHeader title="Marvel"/> </Link>
+        <Link to="/star-wars"> <CardHeader title="Star Wars"/> </Link>
+        <Link to="/national-geographic"> <CardHeader title="National Geographic"/> </Link>
+        <Link to="/star"> <CardHeader title="Star"/> </Link>
+      </div>
+
     
 
-    // POUR AFFICHER TOUTES LES SERIES ET FILM SANS LES CATEGORIES 
+    {/* // POUR AFFICHER TOUTES LES SERIES ET FILM SANS LES CATEGORIES  */}
     <div>
       <p style={{color:"white"}}>FILMS ET SERIES</p>
 
@@ -27,6 +30,7 @@ export default function Homes() {
 
         </div>
       )) }
+    </div>
     </div>
 
   )

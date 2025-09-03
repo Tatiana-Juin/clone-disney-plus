@@ -18,6 +18,9 @@ export default function Navbar() {
             <li>
                 <NavLink  className="nav-items" to='/serie'>Series</NavLink>
             </li>
+             {/* <li>
+                <NavLink  className="nav-items" to='/marvel'>Marvel</NavLink>
+            </li> */}
 
         </ul>
     </nav>
