@@ -1,7 +1,10 @@
-
+import disneyPlusData from "../data/disneyPlusData"
+import CategoryList from "../components/CategoryList"
 
 export default function Star() {
   return (
-    <div>Star</div>
+    <div>
+      <CategoryList data={disneyPlusData} cat="star" />
+    </div>
   )
 }
