@@ -1,19 +1,17 @@
 import disneyPlusData from "../data/disneyPlusData"
+import CardShowType from "../components/cardShowType/CardShowType"
 export default function Serie() {
   return (
     <div>
       {/* <p style={{color:"white"}}> Serie</p> */}
       
       {/* POR AFFICHER UNIQUEMENT LES SERIES  */}
-      {Object.entries(disneyPlusData).map(([categorie,contenus]) =>(
-        <div key={categorie}>
-            <ul>
-              {contenus.filter((disneySerie) => disneySerie.type==="serie" ).map((disneySerie) =>(
-                <li style={{color:"white"}} key={disneySerie.id}> {disneySerie.nom} </li>
-              ))}
-            </ul>
+     <div style={{display:"flex",flexWrap:"wrap"}}>
+         
+          <CardShowType data={disneyPlusData} type="serie" />
+
+
         </div>
-      ))}
     </div>
   )
 }

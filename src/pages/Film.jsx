@@ -1,21 +1,19 @@
 import disneyPlusData from "../data/disneyPlusData"
-
+import CardShowType from "../components/cardShowType/CardShowType"
 export default function Film() {
   
   return (
     <div>
       
       {/* POUR AFFICHER LES FILMS  */}
-      {Object.entries(disneyPlusData).map(([categorie,contenus]) =>(
-        <div key={categorie}>
-            <ul>
-              {contenus.filter((filmContenu) => filmContenu.type==="film").map((filmContenu) =>(
-                <li style={{color:"white"}} key={filmContenu.id}>{filmContenu.nom}</li>
-              ))}
-            </ul>
-        </div>
-      ))}
       
+
+       <div style={{display:"flex",flexWrap:"wrap"}}>
+         
+          <CardShowType data={disneyPlusData} type="film" />
+
+
+        </div>
       
 
       
