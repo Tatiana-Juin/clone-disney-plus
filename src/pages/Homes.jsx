@@ -1,5 +1,6 @@
 import CardHeader from "../components/CardHeader"
 import disneyPlusData from "../data/disneyPlusData"
+import CardShowType from "../components/cardShowType/CardShowType"
 import { Link } from "react-router-dom"
 export default function Homes() {
   return (
@@ -17,20 +18,25 @@ export default function Homes() {
     
 
     {/* // POUR AFFICHER TOUTES LES SERIES ET FILM SANS LES CATEGORIES  */}
-    <div>
-      <p style={{color:"white"}}>FILMS ET SERIES</p>
+      <div>
+        {/* film */}
+        <h2 style={{color:"white"}}>Films</h2>
 
-      {Object.entries(disneyPlusData).map(([categorie,contenus]) =>(
-        <div key={categorie}>
-          <ul>
-            {contenus.map((disneyData) =>(
-              <li style={{color:"white"}} key={disneyData.id}> {disneyData.nom} </li>
-            ))}
-          </ul>
+        <div style={{display:"flex",flexWrap:"wrap"}}>
+          <CardShowType data={disneyPlusData} type="film" />
+        </div>
+
+        {/* serie */}
+        <h2 style={{color:"white"}}>Series</h2>
+
+        <div style={{display:"flex",flexWrap:"wrap"}}>
+         
+          <CardShowType data={disneyPlusData} type="serie" />
+
 
         </div>
-      )) }
-    </div>
+
+      </div>
     </div>
 
   )
