@@ -30,8 +30,14 @@
     flex-direction: column;
 }
 
+/* STYLE POUR LE TITRE DES CATEGORIES */
 .title-categorie{
     color:white;
     margin: 20px 0 20px 0;
     font-size: 25px;
+}
+
+/* DIV POUR LES FILMS ET SERIES */
+.div-film,.div-serie{
+    display: flex;
 }

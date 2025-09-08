@@ -23,14 +23,14 @@ export default function Homes() {
         {/* film */}
         <h2 className='title-categorie'>Films</h2>
 
-        <div style={{display:"flex",flexWrap:"wrap"}}>
+        <div className='div-film'>
           <CardShowType data={disneyPlusData} type="film" />
         </div>
 
         {/* serie */}
         <h2 className='title-categorie'>Series</h2>
 
-        <div style={{display:"flex",flexWrap:"wrap"}}>
+        <div className='div-serie'>
          
           <CardShowType data={disneyPlusData} type="serie" />
 
