@@ -1,3 +1,4 @@
+import './pages.css'
 import CardHeader from "../components/CardHeader"
 import disneyPlusData from "../data/disneyPlusData"
 import CardShowType from "../components/cardShowType/CardShowType"

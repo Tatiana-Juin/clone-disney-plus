@@ -1,3 +1,4 @@
+import './pages.css'
 import disneyPlusData from "../data/disneyPlusData";
 import CategoryList from "../components/CategoryList"
 

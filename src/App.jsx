@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import Homes from './pages/Homes'
 import Film from './pages/Film'
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <Navbar />
-
+    
     <Routes>
         <Route path='/' element={<Homes />} />
         <Route path='/film' element={<Film />} />

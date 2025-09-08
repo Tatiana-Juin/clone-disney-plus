@@ -1,5 +1,6 @@
 import disneyPlusData from "../data/disneyPlusData"
 import CardShowType from "../components/cardShowType/CardShowType"
+import './pages.css'
 export default function Film() {
   
   return (

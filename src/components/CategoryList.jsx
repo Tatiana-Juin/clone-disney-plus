@@ -7,6 +7,7 @@ export default function CategoryList({data,cat}) {
             <div key={categorie}>
                 <ul>
                     {contenus.map((item) =>(
+                      
                         <li style={{color:"white"}} key={item.id}> {item.nom} </li>
                     ))}
                 </ul>
