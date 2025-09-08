@@ -8,27 +8,27 @@ export default function Homes() {
     <div className='div-home'>
       {/* POUR CHAQUE LIENS VERS LES PAGES */}
       <div className='div-card-home'>
-        <Link to='/disney'> <CardHeader title="disney" /> </Link>
-        <Link to='/pixar'> <CardHeader title="Pixar"/> </Link>
-        <Link to="/marvel"> <CardHeader title="Marvel"/> </Link>
-        <Link to="/star-wars"> <CardHeader title="Star Wars"/> </Link>
-        <Link to="/national-geographic"> <CardHeader title="National Geographic"/> </Link>
-        <Link to="/star"> <CardHeader title="Star"/> </Link>
+        <Link className='lien-card' to='/disney'> <CardHeader title="disney" /> </Link>
+        <Link className='lien-card' to='/pixar'> <CardHeader title="Pixar"/> </Link>
+        <Link className='lien-card' to="/marvel"> <CardHeader title="Marvel"/> </Link>
+        <Link className='lien-card' to="/star-wars"> <CardHeader title="Star Wars"/> </Link>
+        <Link className='lien-card' to="/national-geographic"> <CardHeader title="National Geographic"/> </Link>
+        <Link className='lien-card' to="/star"> <CardHeader title="Star"/> </Link>
       </div>
 
     
 
     {/* // POUR AFFICHER TOUTES LES SERIES ET FILM SANS LES CATEGORIES  */}
-      <div>
+      <div className='div-serie-film'>
         {/* film */}
-        <h2 style={{color:"white"}}>Films</h2>
+        <h2 className='title-categorie'>Films</h2>
 
         <div style={{display:"flex",flexWrap:"wrap"}}>
           <CardShowType data={disneyPlusData} type="film" />
         </div>
 
         {/* serie */}
-        <h2 style={{color:"white"}}>Series</h2>
+        <h2 className='title-categorie'>Series</h2>
 
         <div style={{display:"flex",flexWrap:"wrap"}}>
          
