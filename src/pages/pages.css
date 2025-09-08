@@ -1,0 +1,20 @@
+/* DIV QUI REGROUPE TOUTES LES PAGES  */
+.div-home{
+    border:1px solid red;
+    display: flex;
+    /* width:97vw; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin:auto;
+    padding:20px;
+}
+
+
+/* STYLE QUI REGROUPE TOUTE LES CARD HEADER */
+.div-card-home{
+    /* border:1px solid blue; */
+    display: flex;
+    /* justify-content: center; */
+
+}
