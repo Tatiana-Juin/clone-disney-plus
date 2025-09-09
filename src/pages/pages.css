@@ -1,3 +1,4 @@
+/* ***************************** HOMES ***************** */
 /* DIV QUI REGROUPE TOUTES LES PAGES  */
 .div-home{
   
@@ -36,10 +37,13 @@
     color:white;
     margin: 20px 0 20px 0;
     font-size: 25px;
+
 }
 
 /* DIV POUR LES FILMS ET SERIES */
-.div-film,.div-serie{
+.div-film,.div-serie,.div-disney{
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
 }
+

@@ -1,18 +1,18 @@
-
+import './card.css'
 
 export default function CategoryList({data,cat}) {
   return (
-    <div>
+    <div className='div-category'>
          {Object.entries(data).filter(([categorie]) => categorie===cat).map(([categorie,contenus]) =>(
-            <div key={categorie}>
-                <ul>
-                    {contenus.map((item) =>(
+                    contenus.map((item) =>(
                       
-                        <li style={{color:"white"}} key={item.id}> {item.nom} </li>
-                    ))}
-                </ul>
+                        <div className='card' key={item.id}>
+                            <p className='card-information'> {item.nom} </p>
+                        </div>
+                    ))
+                
 
-            </div>
+           
         ))}
     </div>
   )

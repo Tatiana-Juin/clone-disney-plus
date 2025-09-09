@@ -4,8 +4,11 @@ import './pages.css'
 
 export default function Disney() {
   return (
-    <div>
-       <CategoryList data={disneyPlusData} cat="disney" />
-    </div>
+    <div className="div-disney">
+      
+          <CategoryList data={disneyPlusData} cat="disney" />
+      </div>
+       
+    
   )
 }
