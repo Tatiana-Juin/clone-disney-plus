@@ -1,13 +1,16 @@
-
+/* STYLE POUR LA CARD HEADER */
 .card{
     background-color:#2D2F36 ;
     width:15vw;
     margin-right: 10px;
+    height:10vh;
+    
 }
 
-/* color:'white',padding:"20px",textAlign:"center" */
+/* STYLE POUR LES INFIORMATION DE LA CARD HEADER  */
 .card-information{
     color: white;
     padding:20px;
     text-align: center;
+    font-size: 17px;
 }
