@@ -1,11 +1,12 @@
 /* DIV QUI REGROUPE TOUTES LES PAGES  */
 .div-home{
-    /* border:1px solid red; */
+  
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin:auto;
     padding:20px;
+    
 }
 
 
@@ -13,14 +14,13 @@
 .div-card-home{
     /* border:1px solid blue; */
     display: flex;
-    
+    flex-wrap: wrap;
 
 }
 
 /* STYLE POUR LES LIENS DE LA CARD  */
 .lien-card{
     text-decoration: none;
-
 }
 
 /* STYLE POUR LA DIV REGROUPANT SERIE ET FILM */
@@ -28,6 +28,7 @@
     /* border:1px solid white; */
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /* STYLE POUR LE TITRE DES CATEGORIES */
@@ -40,4 +41,5 @@
 /* DIV POUR LES FILMS ET SERIES */
 .div-film,.div-serie{
     display: flex;
+    flex-wrap: wrap;
 }
