@@ -1,0 +1,20 @@
+/* POUR LA CARD QUI REGROUPE TOUS LES ELEMENTS  */
+.card-serie-film{
+    display: flex;
+    background-color:#2D2F36 ;
+    width:"10vw";
+    margin-right:10px;
+    width:10vw;
+    height:25vh;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+/* POUR LE TEXTE DES CARD DES FILM ET SERIE */
+.card-serie-film h4,.card-serie-film p{
+    color:white;
+    text-align: center;
+    font-size: 17px;
+
+}
