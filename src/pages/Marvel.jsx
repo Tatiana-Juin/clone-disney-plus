@@ -4,7 +4,7 @@ import CategoryList from "../components/CategoryList"
 
 export default function Marvel() {
   return (
-    <div>
+    <div className='div-marvel'>
 
         <CategoryList data={disneyPlusData} cat="marvel" />
 

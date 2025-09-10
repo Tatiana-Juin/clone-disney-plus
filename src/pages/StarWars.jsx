@@ -3,7 +3,7 @@ import disneyPlusData from "../data/disneyPlusData"
 import CategoryList from "../components/CategoryList"
 export default function StarWars() {
   return (
-    <div>
+    <div className='div-wars'>
       <CategoryList data={disneyPlusData} cat="starWars" />
     </div>
   )

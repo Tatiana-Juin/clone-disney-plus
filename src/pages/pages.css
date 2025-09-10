@@ -1,6 +1,6 @@
 /* ***************************** HOMES ***************** */
-/* DIV QUI REGROUPE TOUTES LES PAGES  */
-.div-home{
+/* DIV QUI REGROUPE TOUTES LES PAGES  (SERIE ,FILM */
+.div-principale{
   
     display: flex;
     justify-content: center;
@@ -9,6 +9,8 @@
     padding:20px;
     
 }
+
+
 
 
 /* STYLE QUI REGROUPE TOUTE LES CARD HEADER */
@@ -40,10 +42,15 @@
 
 }
 
-/* DIV POUR LES FILMS ET SERIES */
-.div-film,.div-serie,.div-disney{
+/* DIV POUR LES PAGE */
+.div-film,.div-serie,.div-card-serie-film{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+}
+
+/************ POUR LES PAGE DISNEY,PIXAR,MARVEL,NATIONAL GEOGRAPHIC,STAR WARS , STAR  */
+.div-disney,.div-marvel,.div-national,.div-pixar,.div-star,.div-wars{
+     padding:20px;
 }
 

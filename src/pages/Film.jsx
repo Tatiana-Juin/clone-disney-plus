@@ -4,12 +4,12 @@ import './pages.css'
 export default function Film() {
   
   return (
-    <div>
+    <div className="div-principale">
       
       {/* POUR AFFICHER LES FILMS  */}
       
 
-       <div style={{display:"flex",flexWrap:"wrap"}}>
+       <div className="div-card-serie-film">
          
           <CardShowType data={disneyPlusData} type="film" />
 

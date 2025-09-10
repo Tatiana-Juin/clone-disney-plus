@@ -4,7 +4,7 @@ import CategoryList from "../components/CategoryList"
 
 export default function Pixar() {
   return (
-    <div>
+    <div className='div-pixar'>
 
       <CategoryList data={disneyPlusData} cat="pixar" />
 

@@ -5,7 +5,7 @@ import CardShowType from "../components/cardShowType/CardShowType"
 import { Link } from "react-router-dom"
 export default function Homes() {
   return (
-    <div className='div-home'>
+    <div className='div-principale'>
       {/* POUR CHAQUE LIENS VERS LES PAGES */}
       <div className='div-card-home'>
         <Link className='lien-card' to='/disney'> <CardHeader title="disney" /> </Link>
