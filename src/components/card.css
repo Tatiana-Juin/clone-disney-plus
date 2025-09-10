@@ -1,10 +1,15 @@
 /* ******************* CARDHEADER*********************** */
-/* STYLE POUR LA CARD HEADER */
-.card{
-    background-color:#2D2F36 ;
+.card-header{
     width:15vw;
-    margin-right: 10px;
     height:10vh;
+}
+
+/* STYLE POUR LA CARD HEADER ET CATEGORY */
+.card-header,.card-categorie{
+    background-color:#2D2F36 ;
+    /* width:15vw; */
+    margin-right: 10px;
+    /* height:10vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +19,7 @@
 }
 
 /* STYLE POUR LES INFIORMATION DE LA CARD HEADER  */
-.card-information{
+.text-information{
     color: white;
     padding:20px;
     text-align: center;
@@ -31,5 +36,10 @@
     padding: 0;
     margin: 0;
     /* list-style: none;  */
+}
+
+.card-categorie{
+    width:10vw;
+    height:30vh;
 }
 

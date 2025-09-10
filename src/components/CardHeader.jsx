@@ -1,8 +1,8 @@
 import './card.css'
 export default function CardHeader({title}) {
   return (
-    <div className='card'>
-        <p className='card-information'> {title}</p>
+    <div className='card-header'>
+        <p className='text-information'> {title}</p>
     </div>
   )
 }
