@@ -8,6 +8,7 @@
     margin:auto;
     padding:20px;
     
+    
 }
 
 
@@ -54,3 +55,19 @@
      padding:20px;
 }
 
+/* *********************************************RESPONSIVE ********************************************************* */
+/* TABLETTE  */
+@media (max-width: 768px) {
+  
+  .title-categorie {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+/* SMARTPHONE */
+@media (max-width: 480px) {
+  .div-card-home, .div-film, .div-serie {
+    flex-direction: column;
+   
+  }
+}

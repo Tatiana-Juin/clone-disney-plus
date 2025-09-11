@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: end;
     flex-direction: column;
+    
 }
 
 /* POUR LE TEXTE DES CARD DES FILM ET SERIE */
@@ -17,4 +18,25 @@
     text-align: center;
     font-size: 17px;
 
+}
+/* **********************************RESPONSIVE********************** */
+
+/* POUR TABLETTE */
+@media screen and  (max-width: 768px) {
+  .card-serie-film {
+    width: 25vw;  
+    height: 20vh;
+  }
+}
+
+/* PETIT ECRAN */
+@media screen and (max-width: 480px) {
+  .card-serie-film {
+    width: 80vw;  
+    height: auto;
+  }
+
+  .card-serie-film h4, .card-serie-film p {
+    font-size: 16px; 
+  }
 }
