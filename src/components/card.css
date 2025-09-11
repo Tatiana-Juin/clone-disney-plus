@@ -2,6 +2,7 @@
 .card-header{
     width:15vw;
     height:10vh;
+     align-items: center;
 }
 
 /* STYLE POUR LA CARD HEADER ET CATEGORY */
@@ -11,7 +12,7 @@
     margin-right: 10px;
     /* height:10vh; */
     display: flex;
-    align-items: center;
+   
     justify-content: center;
     
     /* border:1px solid red; */
@@ -41,5 +42,6 @@
 .card-categorie{
     width:10vw;
     height:30vh;
+     align-items: end;
 }
 
