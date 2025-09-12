@@ -2,10 +2,10 @@
 .card-serie-film{
     display: flex;
     background-color:#2D2F36 ;
-    width:"10vw";
+    
     margin-right:10px;
-    width:10vw;
-    height:25vh;
+    width:13vw;
+    height:28vh;
     align-items: center;
     justify-content: end;
     flex-direction: column;
@@ -21,10 +21,19 @@
 }
 /* **********************************RESPONSIVE********************** */
 
+@media screen and (min-width:769px) and (max-width:1385px){
+  
+   .card-serie-film {
+    width: 21vw;  
+    height: 27vh;
+  }
+
+}
+
 /* POUR TABLETTE */
-@media screen and  (max-width: 768px) {
+@media screen and (min-width:481px) and  (max-width: 768px) {
   .card-serie-film {
-    width: 25vw;  
+    width: 35vw;  
     height: 23vh;
   }
 }

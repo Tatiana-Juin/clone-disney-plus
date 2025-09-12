@@ -49,7 +49,7 @@
 
 /* *********************************RESPONSIVE ************************************ */
 /* ECRAN TABLETTE */
-@media (max-width: 768px) {
+@media screen and (min-width:481px) and (max-width: 768px) {
   .card-header {
     width: 35vw;   
     height: 15vh;
@@ -62,7 +62,7 @@
 }
 
 /* PORTABLE  */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .card-header {
     width: 70vw;   
     height: 13vh;

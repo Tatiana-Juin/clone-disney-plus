@@ -56,16 +56,20 @@
 }
 
 /* *********************************************RESPONSIVE ********************************************************* */
+
+
+
 /* TABLETTE  */
-@media (max-width: 768px) {
-  
+@media screen and (min-width:481px) and  (max-width: 768px) {
+
+ /* POUR E TITRE DES CATEGORIE */
   .title-categorie {
     font-size: 20px;
     text-align: center;
   }
 }
 /* SMARTPHONE */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .div-card-home, .div-film, .div-serie {
     flex-direction: column;
    
