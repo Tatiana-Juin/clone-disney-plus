@@ -29,7 +29,7 @@
 
 /* STYLE POUR LA DIV REGROUPANT SERIE ET FILM */
 .div-serie-film{
-    /* border:1px solid white; */
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
