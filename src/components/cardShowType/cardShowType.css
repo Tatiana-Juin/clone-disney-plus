@@ -25,15 +25,15 @@
 @media screen and  (max-width: 768px) {
   .card-serie-film {
     width: 25vw;  
-    height: 20vh;
+    height: 23vh;
   }
 }
 
 /* PETIT ECRAN */
 @media screen and (max-width: 480px) {
   .card-serie-film {
-    width: 80vw;  
-    height: auto;
+    width: 70vw;  
+    height:  25vh;
   }
 
   .card-serie-film h4, .card-serie-film p {
