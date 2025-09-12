@@ -40,8 +40,8 @@
 }
 /* SPECIFICATION POUR LES CARD SELON LA CATEGORIE  */
 .card-categorie{
-    width:10vw;
-    height:30vh;
+    width:20vw;
+    height:40vh;
      align-items: flex-end;
     
 }
@@ -54,6 +54,11 @@
     width: 35vw;   
     height: 15vh;
   }
+
+   .card-categorie{
+    width:30vw;
+    height:30vh; 
+  }
 }
 
 /* PORTABLE  */
@@ -63,9 +68,15 @@
     height: 13vh;
   }
 
+  .card-categorie{
+    width:60vw;
+    height:30vh; 
+}
+
   .text-information {
     font-size: 16px; 
   }
+
 }
 
 
