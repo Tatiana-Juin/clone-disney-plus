@@ -38,8 +38,8 @@
 }
 /* SPECIFICATION POUR LES CARD SELON LA CATEGORIE  */
 .card-category{
-    width:20vw;
-    height:40vh;
+    width:13vw;
+    height:45vh;
      align-items: flex-end;
     
 }

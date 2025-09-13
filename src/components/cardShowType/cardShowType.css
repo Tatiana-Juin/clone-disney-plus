@@ -5,7 +5,7 @@
     
     margin-right:10px;
     width:13vw;
-    height:28vh;
+    height:45vh;
     align-items: center;
     justify-content: end;
     flex-direction: column;
@@ -25,7 +25,7 @@
   
    .serie-movie-information {
     width: 21vw;  
-    height: 27vh;
+    height: 43vh;
   }
 
 }
@@ -34,7 +34,7 @@
 @media screen and (min-width:481px) and  (max-width: 768px) {
   .serie-movie-information {
     width: 35vw;  
-    height: 23vh;
+    height: 25vh;
   }
 }
 
