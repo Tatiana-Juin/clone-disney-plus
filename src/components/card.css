@@ -1,8 +1,6 @@
 /* ******************* CARDHEADER*********************** */
 .card-header{
     
-    
-    /* HORS REPONSIVE */
     width:15vw;
     height:10vh;
      align-items: center;
@@ -10,7 +8,7 @@
 }
 
 /* STYLE POUR LA CARD HEADER ET CATEGORY */
-.card-header,.card-categorie{
+.card-header,.card-category{
     background-color:#2D2F36 ;
     margin-right: 10px;
     display: flex;
@@ -29,7 +27,7 @@
 /* ***********************CATEGORYLIST***** */
 
 /* DIV REGOURPANT TOUTES LES INFORMATION CONCERNANT LA CAEGORY (DISNEY,MARVEL) */
-.div-category{
+.category{
      display: flex;
     flex-wrap: wrap;   
        
@@ -39,7 +37,7 @@
     /* list-style: none;  */
 }
 /* SPECIFICATION POUR LES CARD SELON LA CATEGORIE  */
-.card-categorie{
+.card-category{
     width:20vw;
     height:40vh;
      align-items: flex-end;
@@ -55,7 +53,7 @@
     height: 15vh;
   }
 
-   .card-categorie{
+   .card-category{
     width:30vw;
     height:30vh; 
   }
@@ -68,7 +66,7 @@
     height: 13vh;
   }
 
-  .card-categorie{
+  .card-category{
     width:60vw;
     height:30vh; 
 }
