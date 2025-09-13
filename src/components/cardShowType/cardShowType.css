@@ -1,5 +1,5 @@
 /* POUR LA CARD QUI REGROUPE TOUS LES ELEMENTS  */
-.card-serie-film{
+.serie-movie-information{
     display: flex;
     background-color:#2D2F36 ;
     
@@ -13,7 +13,7 @@
 }
 
 /* POUR LE TEXTE DES CARD DES FILM ET SERIE */
-.card-serie-film h4,.card-serie-film p{
+.serie-movie-information h4,.serie-movie-information p{
     color:white;
     text-align: center;
     font-size: 17px;
@@ -23,7 +23,7 @@
 
 @media screen and (min-width:769px) and (max-width:1385px){
   
-   .card-serie-film {
+   .serie-movie-information {
     width: 21vw;  
     height: 27vh;
   }
@@ -32,7 +32,7 @@
 
 /* POUR TABLETTE */
 @media screen and (min-width:481px) and  (max-width: 768px) {
-  .card-serie-film {
+  .serie-movie-information {
     width: 35vw;  
     height: 23vh;
   }
@@ -40,12 +40,12 @@
 
 /* PETIT ECRAN */
 @media screen and (max-width: 480px) {
-  .card-serie-film {
+  .serie-movie-information{
     width: 70vw;  
     height:  25vh;
   }
 
-  .card-serie-film h4, .card-serie-film p {
+  .serie-movie-information h4, .serie-movie-information p {
     font-size: 16px; 
   }
 }
