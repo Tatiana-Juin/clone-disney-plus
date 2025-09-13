@@ -1,6 +1,6 @@
 /* ***************************** HOMES ***************** */
 /* DIV QUI REGROUPE TOUTES LES PAGES  (SERIE ,FILM */
-.div-principale{
+.home,.serie,.movie{
   
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
 
 
 /* STYLE QUI REGROUPE TOUTE LES CARD HEADER */
-.div-card-home{
+.card-home{
     /* border:1px solid blue; */
     display: flex;
     flex-wrap: wrap;
@@ -23,12 +23,12 @@
 }
 
 /* STYLE POUR LES LIENS DE LA CARD  */
-.lien-card{
+.link-card{
     text-decoration: none;
 }
 
 /* STYLE POUR LA DIV REGROUPANT SERIE ET FILM */
-.div-serie-film{
+.all-serie-movie{
     
     display: flex;
     flex-direction: column;
@@ -44,14 +44,14 @@
 }
 
 /* DIV POUR LES PAGE */
-.div-film,.div-serie,.div-card-serie-film{
+.card-movie,.card-serie,.card-serie-movie{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 
 /************ POUR LES PAGE DISNEY,PIXAR,MARVEL,NATIONAL GEOGRAPHIC,STAR WARS , STAR  */
-.div-disney,.div-marvel,.div-national,.div-pixar,.div-star,.div-wars{
+.card-disney,.card-marvel,.card-national,.card-pixar,.card-star,.card-wars{
      padding:20px;
 }
 
@@ -70,7 +70,7 @@
 }
 /* SMARTPHONE */
 @media screen and (max-width: 480px) {
-  .div-card-home, .div-film, .div-serie {
+  .card-home, .card-movie, .card-serie {
     flex-direction: column;
    
   }

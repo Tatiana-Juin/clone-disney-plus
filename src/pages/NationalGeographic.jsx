@@ -4,7 +4,7 @@ import CategoryList from "../components/CategoryList"
 
 export default function NationalGeographic() {
   return (
-    <div className='div-national'>
+    <div className='card-national'>
       <CategoryList data={disneyPlusData} cat="nationalGeographic" />
     </div>
   )

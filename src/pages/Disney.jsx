@@ -4,7 +4,7 @@ import './pages.css'
 
 export default function Disney() {
   return (
-    <div className="div-disney">
+    <div className="card-disney">
       
           <CategoryList data={disneyPlusData} cat="disney" />
       </div>

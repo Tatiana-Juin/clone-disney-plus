@@ -4,7 +4,7 @@ import CategoryList from "../components/CategoryList"
 
 export default function Star() {
   return (
-    <div className='div-star'>
+    <div className='card-star'>
       <CategoryList data={disneyPlusData} cat="star" />
     </div>
   )
