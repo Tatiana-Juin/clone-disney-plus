@@ -8,6 +8,7 @@ import Pixar from '../pages/Pixar'
 import StarWars from '../pages/StarWars'
 import NationalGeographic from '../pages/NationalGeographic'
 import Star from '../pages/Star'
+import DetailsMovieSerie from '../pages/DetailsMovieSerie'
 
 export default function AppRoutes() {
   return (
@@ -24,6 +25,9 @@ export default function AppRoutes() {
                 <Route path='/star-wars' element={<StarWars />} />
                 <Route path="/national-geographic" element={<NationalGeographic />} />
                 <Route path='/star' element={<Star />} />
+
+                {/* ROUTES DYNAMIQUE */}
+                <Route path='/details/:id' element={ <DetailsMovieSerie /> } />
             </Routes>
     </>
   )
