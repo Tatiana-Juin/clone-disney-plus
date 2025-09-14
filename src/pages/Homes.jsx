@@ -3,6 +3,7 @@ import CardHeader from "../components/CardHeader"
 import disneyPlusData from "../data/disneyPlusData"
 import CardShowType from "../components/cardShowType/CardShowType"
 import { Link } from "react-router-dom"
+
 export default function Homes() {
   return (
     <div className='home'>
