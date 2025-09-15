@@ -24,12 +24,12 @@ export default function Film() {
       {/* POUR AFFICHER LES FILMS  */}
       
 
-       <div className="card-serie-movie">
+       {/* <div className="card-serie-movie">
          
           <CardShowType data={disneyPlusData} type="film" />
 
 
-        </div>
+        </div> */}
 
         
 
