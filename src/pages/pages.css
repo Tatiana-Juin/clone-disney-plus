@@ -52,6 +52,15 @@
      padding:20px;
 }
 
+
+/* *******************************PAGE DETAILS POUR LES FILMS  */
+
+.title{
+  color:white;
+  text-align: center;
+  margin-top: 15px;
+}
+
 /* *********************************************RESPONSIVE ********************************************************* */
 
 
@@ -61,7 +70,7 @@
 
  /* POUR E TITRE DES CATEGORIE */
   .title-categorie {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   }
 }

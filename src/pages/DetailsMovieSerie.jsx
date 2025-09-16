@@ -16,10 +16,10 @@ export default function DetailsMovieSerie() {
 
   return (
     <div>
-        <h1 style={{color:"white"}}> {item.nom} </h1>
+        <h1 className="title"> {item.nom} </h1>
         <p style={{color:"white"}}> Année : {item.annee} </p>
 
-        <p style={{color:"white"}}> Resumé : {item.resume} </p>
+        <p style={{color:"white"}}> {item.resume} </p>
         {/* SUR CETTE PAGE ON VA RECUPERER LES DETAILS DES FILMS ET SERIES  */}
 
         {item.saisons && item.saisons.map(saison =>(

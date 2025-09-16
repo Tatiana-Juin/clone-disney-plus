@@ -152,7 +152,7 @@ const disneyPlusData = {
     }
   ],
 
-  nationalGeographic: [
+  nationalGeographique: [
     {
       id:10,
       type: "film",
