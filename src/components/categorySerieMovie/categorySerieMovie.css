@@ -2,12 +2,21 @@
 .btn-category{
     padding:25px;
     margin-right:15px;
-    width: 150px;
+    width: 170px;
     margin-top:15px;
     color: white;
     background-color: #2D2F36;
     cursor: pointer;
+    font-weight: bolder;
+
+    border:none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+    font-size:15px;
 }
+
+
 
 .serie-movie-category {
     display: flex;       

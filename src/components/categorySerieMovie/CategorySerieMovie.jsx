@@ -39,6 +39,7 @@ export default function CategorySerieMovie({data,type}) {
                     {cat}
                 </button>
             ))}
+            
 
             <h2 className="title-categorie">
                 {selectedCategory
