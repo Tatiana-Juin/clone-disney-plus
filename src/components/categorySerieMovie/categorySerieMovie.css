@@ -1,0 +1,18 @@
+/* POUR ELK BOUTON DES CATEGORIE  */
+.btn-category{
+    padding:25px;
+    margin-right:15px;
+    width: 150px;
+    margin-top:15px;
+    color: white;
+    background-color: #2D2F36;
+    cursor: pointer;
+}
+
+.serie-movie-category {
+    display: flex;       
+    flex-direction: row; 
+    flex-wrap: wrap;    
+    gap: 15px;           
+}
+

@@ -9,27 +9,19 @@ export default function Film() {
   return (
     <div className="movie">
       
-    {/* POUR AFFICHER LES CATEGORIES DES FILM */}
-       {/* {Object.entries(disneyPlusData).map(([categorie,contenus]) => contenus
-        .filter((item) => item.type === "film")
-        .map((disney) =>(
-          <div key={disney.id}>
-              <p style={{color:"white"}}> {disney.categorie} </p>
-          </div>
-        ))
-      )} */}
+   
 
-      <CategorySerieMovie data={disneyPlusData} type="film" />
+      
 
       {/* POUR AFFICHER LES FILMS  */}
       
 
-       {/* <div className="card-serie-movie">
+       {/* <div className="card-serie-movie"> */}
          
-          <CardShowType data={disneyPlusData} type="film" />
+          <CategorySerieMovie data={disneyPlusData} type="film" />
 
 
-        </div> */}
+        {/* </div> */}
 
         
 

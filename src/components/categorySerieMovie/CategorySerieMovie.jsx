@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom";
+import "./categorySerieMovie.css"
 // COMPOSANT PERMETTANT DE RECUPERER LES CATEGORIE DE MANIERE UNIQUE 
 export default function CategorySerieMovie({data,type}) {
     //USE STATE 
@@ -26,27 +27,27 @@ export default function CategorySerieMovie({data,type}) {
 
 
   return (
-    <div>
-            <button onClick={() => setSelectedCategory(null)}>
+    <div >
+            <button className="btn-category" onClick={() => setSelectedCategory(null)}>
                     Tout
             </button>
 
 
 
             {uniqueCategory.map(cat => (
-                <button key={cat} onClick={() => setSelectedCategory(cat)} >
+                <button className="btn-category" key={cat} onClick={() => setSelectedCategory(cat)} >
                     {cat}
                 </button>
             ))}
 
-            <h2 style={{color:"white"}}>
+            <h2 className="title-categorie">
                 {selectedCategory
                     ? `${type} de la categorie ${selectedCategory}`
-                    : `Tout les ${type}`
+                    : `Toutes les ${type}`
                 }
             </h2>
 
-            <div>
+            <div className="serie-movie-category">
 
                 {filtered.map(filt =>(
                     <Link key={filt.id} to ={`/details/${filt.id}`}> 

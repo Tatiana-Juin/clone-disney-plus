@@ -7,16 +7,16 @@ export default function Serie() {
   return (
     <div className='serie'>
 
-      {/* IMPORT DU COMPOSANT POUR RECUPERER LES CATEGORIE DES SERIE   */}
-      <CategorySerieMovie data={disneyPlusData} type="serie" />
       
-      {/* POR AFFICHER UNIQUEMENT LES SERIES  */}
-     <div className='card-serie-movie'>
+      
+      
+      {/* IMPORT DU COMPOSANT POUR RECUPERER LES CATEGORIE DES SERIE   */}
+     {/* <div className='card-serie-movie'> */}
          
-          <CardShowType data={disneyPlusData} type="serie" />
+          <CategorySerieMovie data={disneyPlusData} type="serie" />
 
 
-        </div>
+        {/* </div> */}
     </div>
   )
 }
