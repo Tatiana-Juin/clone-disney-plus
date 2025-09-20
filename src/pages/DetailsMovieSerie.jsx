@@ -24,10 +24,11 @@ export default function DetailsMovieSerie() {
 
         {item.saisons && item.saisons.map(saison =>(
             <div key={saison.numero}>
-                    <h3 style={{color:"white"}}> {saison.numero} </h3>
+                    <h3 style={{color:"white"}}>  Saison : {saison.numero} </h3>
                     {saison.episodes.map(ep =>(
                         <div key={ep.numero}>
-                            <p style={{color:"white"}}> {ep.titre} </p>
+                            <p style={{color:"white"}}> Episode {ep.numero} : {ep.titre} : {ep.resume} </p>
+                           
                         </div>
                     ))}
             </div>
